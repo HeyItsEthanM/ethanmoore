@@ -1,0 +1,41 @@
+.btn-container{
+    margin-top: 50px;
+}
+.btn{
+    width: 100px;
+    height: fit-content;
+    padding: 2px;
+}
+.btn 
+.btn:hover {
+    box-shadow: 1px 1px 11px 1px gray;
+}
+.social-icon-container{
+    justify-content: center;
+}
+.social-icon{
+    width: fit-content;
+    padding: 3px;
+}
+
+#links{
+flex-direction: column;
+}
+* {
+    color: rgb(224,220,198)
+}
+
+@media (max-width:700px) {
+    body > div:nth-child(2) > div > p{
+        width: auto;
+    }
+    #links{
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1{
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+}
